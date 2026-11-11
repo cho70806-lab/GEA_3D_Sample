@@ -12079,6 +12079,7 @@ GameObject:
   - component: {fileID: 1013665430}
   - component: {fileID: 1013665429}
   - component: {fileID: 1013665428}
+  - component: {fileID: 1013665432}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -12191,6 +12192,26 @@ Transform:
   - {fileID: 1914726550}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1013665432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013665427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bea416109f26334991bd11a73de7b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RewardCalc
+  playerSeconds: 3725
+  gold: 1234
+  members: 4
+  kills: 7
+  exPerkill: 35
+  totalDamage: 250
+  hit: 20
+  expRate: 1.5
 --- !u!1001 &1019253108
 PrefabInstance:
   m_ObjectHideFlags: 0
